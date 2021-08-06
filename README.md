@@ -14,13 +14,6 @@ An extension to get the current internet speed. This is using the navigator obje
 * Select Load unpacked and choose the folder containing the codes
 * You will be able to see the extension in the browser.
 
-## Help
-
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
-
 ## Authors
 
 Contributors names and contact info
