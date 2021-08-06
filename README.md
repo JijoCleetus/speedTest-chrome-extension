@@ -18,7 +18,7 @@ An extension to get the current internet speed. This is using the navigator obje
 
 Contributors names and contact info
 
-ex. Jijo Cleetus (jijocleetus@gmail.com)
+Jijo Cleetus (jijocleetus@gmail.com)
 
 ## Version History
 
