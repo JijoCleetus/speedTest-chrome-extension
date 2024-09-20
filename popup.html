@@ -1,19 +1,34 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <link rel="stylesheet" href="popup.css" />
+    <style>
+      @media (prefers-color-scheme: dark) {
+        .container {
+          font-family: sans-serif;
+          background: #000;
+          color: #fff;
+        }
+      }
 
-<head>
-    <link rel="stylesheet" href="popup.css">
-</head>
+      @media (prefers-color-scheme: light) {
+        .container {
+          font-family: sans-serif;
+          background: #fff;
+          color: #000;
+        }
+      }
+    </style>
+  </head>
 
-<body>
+  <body>
     <div class="container">
-        <h4>Test Current Internet Speed</h4>
-        <button id="changeColor">
-            <img src="./images/speedometer32.png" />
-        </button>
-        <h1 id="speedValue"></h1>
+      <h4>Current Internet Speed</h4>
+      <button id="changeColor">
+        <img src="./images/speedometer32.png" />
+      </button>
+      <h1 id="speedValue"></h1>
     </div>
     <script src="popup.js"></script>
-</body>
-
+  </body>
 </html>
