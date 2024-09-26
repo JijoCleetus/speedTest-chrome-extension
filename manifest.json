@@ -1,7 +1,7 @@
 {
   "name": "Speed test",
-  "description": "Speed test extension using navigator object",
-  "version": "0.0.0.3",
+  "description": "Speed test extension using sample image download time and image size",
+  "version": "0.0.0.4",
   "manifest_version": 3,
   "action": {
     "default_popup": "popup.html",
